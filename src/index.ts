@@ -6,7 +6,7 @@ import connectDb from "./config/dbConfig";
 dotenv.config();
 connectDb();
 
-const port = process.env.PORT || 5000;
+const port = 8000;
 
 // routes
 import shortUrl from "./routes/shortUrl.routes";
